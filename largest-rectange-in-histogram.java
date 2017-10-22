@@ -5,6 +5,7 @@ class Solution {
         }
         Stack<Integer> bar = new Stack<Integer>();
         int sum=0;
+        (hello awod)
         for(int i=0;i<=heights.length;i++){
             int curt=(i==heights.length)?-1:heights[i];
             while(!bar.isEmpty()&&heights[bar.peek()]>=curt){
